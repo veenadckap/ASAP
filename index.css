@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(90deg,#865A72, #3E2453);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+   text-align: center;
+    color: white;
+    width: 26%;
+    height: 525px;
+    background-image: url(landscape-sea-during-breathtaking-sunset-rancho-palos-verdes-california.jpg);
+    background-size: 100% 525px; 
+     border-radius: 10px;
+    
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+input[type='text']{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 60%;
+    height: 40px;
+    position: relative;
+    left: 12px;
+}
+.hidden {
+    display: none;
+}
+
+#weatherInfo{
+    padding-top: 5%;
+    line-height: 0.5;
+}
+ #temperature{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#cityName{
+    font-size: 2rem;
+}
+
+.climate{
+   padding-top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#cityName{
+    position: relative;
+    bottom: 28px;
+}
